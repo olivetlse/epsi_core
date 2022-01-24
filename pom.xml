@@ -26,7 +26,10 @@
 			<version>5.8.0</version>
 			<scope>test</scope>
 		</dependency>
-			<build>
+			
+
+	</dependencies>
+	<build>
 				<plugins>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
@@ -36,6 +39,4 @@
 				</plugins>
 			</build>
 		
-
-	</dependencies>
 </project>
