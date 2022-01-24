@@ -3,7 +3,7 @@ package fr.epsi.core;
 public final class MathUtils {
     private MathUtils() {
     }
-
+/**test*/
 
     /**
      * Calculates the factorial of the number n recursively.
