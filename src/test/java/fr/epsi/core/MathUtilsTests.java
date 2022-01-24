@@ -14,7 +14,7 @@ class MathUtilsTests {
 	@CsvFileSource(resources = "/Factorial.csv", numLinesToSkip = 1)
 	void factorial(int number, double expectedResult) {
 		// assertEquals(MathUtils.factorial(number)).isEqual(expectedResult);
-		assertEquals(expectedResult, MathUtils.factorial(number), 0);
+		assertEquals(expectedResult, MathUtils.factorial(number), 1);
 
 	}
 
