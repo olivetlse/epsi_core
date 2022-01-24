@@ -13,8 +13,8 @@ class MathUtilsTests {
 	@ParameterizedTest(name = "La factorielle de {0} est {1}")
 	@CsvFileSource(resources = "/Factorial.csv", numLinesToSkip = 1)
 	void factorial(int number, double expectedResult) {
-		//assertEquals(MathUtils.factorial(number)).isEqual(expectedResult);
-		assertEquals(expectedResult, MathUtils.factorial(number), 0);
+		assertEquals(MathUtils.factorial(number)).isEqual(expectedResult);
+		//assertEquals(expectedResult, MathUtils.factorial(number), 0);
 
 	}
 
