@@ -1,4 +1,4 @@
-package fr.epsi.core;
+/*package fr.epsi.core;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,3 +12,4 @@ class EpsicoreTest {
 	}
 
 }
+*/
