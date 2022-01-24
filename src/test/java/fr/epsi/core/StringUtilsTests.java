@@ -21,7 +21,6 @@ class StringUtilsTests {
 
 	void isPalindrome(String sentense) {
 		assertTrue(StringUtils.isPalindrome(sentense));
-
 	}
 
 	@ParameterizedTest(name = "{0} n est pas un palindrome")
